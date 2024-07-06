@@ -1,0 +1,10 @@
+# Ignorar arquivos temporários
+*.log
+*.tmp
+*.pyc
+
+# Ignorar diretório de cache do Python
+__pycache__/
+
+# Ignorar diretório de build
+/build/
