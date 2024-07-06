@@ -10,6 +10,7 @@ from starlette import status
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from jose import jwt, JWTError
 
+#apenas para testar o merge 
 router = APIRouter(
   prefix='/auth',
   tags= ['auth']
